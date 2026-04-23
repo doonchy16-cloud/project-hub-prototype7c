@@ -2384,3 +2384,11 @@ export default function Prototype7() {
     </div>
   );
 }
+
+import { redirect } from "next/navigation";
+
+export default function RootPage() {
+  redirect("/welcome");
+}
+
+"use client";
